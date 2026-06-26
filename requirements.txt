@@ -1,0 +1,8 @@
+streamlit~=1.36
+pandas~=2.0
+openai~=1.0
+ddgs~=9.0
+pyvis~=0.3
+pytest~=8.0
+akshare>=1.16
+cryptography>=41.0

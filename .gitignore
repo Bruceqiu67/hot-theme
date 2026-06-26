@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive credentials
+.env*
+*.key
+.marvis_key
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data files (contains API keys and generated data)
+data/*.db
+data/api_config.json
+data/hot_topics.json
+data/predictions.json
+data/fermentation_observations.json
+data/*.log
+data/reports/
+
+# Test artifacts
+.coverage
+.pytest_cache/
+temp/
+
+# Generated content
+*.pdf
+streamlit.log
+output/
+ux_test.py
+start_srv.py
